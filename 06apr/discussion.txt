@@ -1,0 +1,62 @@
+->git is a source code /version control system
+->GitHub is the server
+->in rest api both backend&frontend are same
+
+Mern - Full Stack
+
+client          ->  server      ->  db
+(fronent)          (backend)       persistent store
+
+
+client : React JS | Angular| Vue JS
+    (javascript \ typescript) javascript is for code
+    UI : HTML/CSS , Bootstrap
+Server : JS (express JS ) | Py (Fast/Flask/Django) | Java (SB) | C# | GO
+    (Rest API)
+Db : RDBMS (SQL) : Oracle , sqlserver , mysql , sqlite , poetgres
+    No SQL : Mongo , cassandra
+
+Mern - Full Stack
+    client -> Server -> DB
+    React JS -> Express JS /Node JS -> Mongo DB 
+
+Mongo DB :
+    Cloud Mongo DB Server
+    Or
+    Local Mongo DB Server
+
+Working with cloud mongo
+    1. Sign in Via Google
+    2. Build the cluster
+    3. Option -free(512MB, shared RAM, shared CPU)
+         cluster name cluster0
+         cloud - aws
+         region - mumbai ap-south-1
+         create deployments
+         !under deployment 
+    4. Go to side bar 
+      -> Cluster
+      If "connect" is there
+      we may connect from ur computer
+    connection string mongosh "mongodb+srv://cluster0.knzbnrb.mongodb.net/" --apiVersion 1 --username chandrakala
+
+    5.extract only the connection string
+    modified one
+    mongodb+srv://cluster0.knzbnrb.mongodb.net/
+    mongodb+srv://chandrakala:1234@cluster0.knzbnrb.mongodb.net/
+
+
+    mongosh "connection string"
+    ->  mongosh "mongodb+srv://chandrakala:1234@cluster0.knzbnrb.mongodb.net/"
+    copy complete and run in terminal
+
+
+
+
+cloud : 
+    Distributed Network
+    Clusters
+    Saas (Software as a Service)
+    cloud
+
+    https://github.com/gmaheswaranmca?mtd_mern_apr26
