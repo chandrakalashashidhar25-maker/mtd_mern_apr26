@@ -1,0 +1,33 @@
+var 
+-> to acsess the local variable ,globally 
+let 
+-> access the variable only in local not in global makes the variable local
+anything divided by zero is infinity
+
+constant = stores the value that is fixed
+           create the object
+
+for printing we use = console.log()
+
+
+destructuring = acessing the objects 
+
+        eg          const address = {
+                            DoorNum = 123,
+                            City ='Mysuru',
+                            State ='Karnataka'
+                    };
+                    { DoorNum,City,State} = address
+
+                    console.log(DoorNum) //123
+                    console.log(pin) // undefined (reference error)
+
+                calling the object
+
+                console.DoorNum = address.doornum //123
+
+spread operator
+
+repersented by three dots 
+
+code. 
